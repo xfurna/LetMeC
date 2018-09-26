@@ -6,7 +6,6 @@
  */
 
 #include <stdio.h>
-//#include <process.h>
 
 void p1(int n, int i, int c){
 	if(i){
