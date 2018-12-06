@@ -82,6 +82,12 @@ The ways %[something] can be used where something is:
 
 `\0` : used to end the character string.
 
+## Key Points
+
+- Precedence of logical operators [! > && > ||]
+- Only long int, int, char type works with switch case default. No float or double is allowed.
+- 
+
 # Command Line arguments
 
 - [CLA](https://www.tutorialspoint.com/cprogramming/c_command_line_arguments.htm)
@@ -89,3 +95,4 @@ The ways %[something] can be used where something is:
 # Resources
 
 - [Secrets of printf()](http://www.cypress.com/file/54441/download)
+- [++ operator in printf](https://www.geeksforgeeks.org/execution-printf-operators/)

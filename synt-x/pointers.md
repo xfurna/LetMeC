@@ -17,7 +17,7 @@ float *fptr;        //creates a float pointer
 int i = 25;           // declares an int variable
 int *iptr;            // declares an int pointer
 iptr = &i;            // stores the memory address of i into iptr
-```  
+```
 - `&` is the unary operator that returns the memory address of the operand. While unary operator `*` does the reverse. It returns the value of the variable located at the address following it. For example if `iptr` contains the memory address 1234 then `*iptr` will return the value stored at that memory address.
 > The operand of `&` can an ordinary variable but the operand of `*` can only be a pointer variable.
 
@@ -125,3 +125,4 @@ A successful call to one of the memory allocation functions returns the beginnin
 - [Pointers and Memory (pdf)](http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)
 - https://www.quora.com/What-does-buffer-mean-in-C
 - http://www.c4learn.com/c-programming/
+- [Pointer to Pointer](https://www.tutorialspoint.com/cprogramming/c_pointer_to_pointer.htm)
